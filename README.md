@@ -1,7 +1,7 @@
 # nanolab — modern small-LM training, one flag at a time
 
 This is the **companion package** referenced throughout
-[`../modern-small-lm-training-guide.md`](../modern-small-lm-training-guide.md).
+[`../modern-small-lm-training-guide.md`](modern-small-lm-training-guide.md).
 It is a clean, instrumented, single-GPU (RTX 3070 Ti / 8 GB) implementation of
 the guide's modern training stack — built so that **every architectural and
 training lever the guide discusses is one CLI flag**, and every run changes
