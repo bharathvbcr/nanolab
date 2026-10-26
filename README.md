@@ -392,3 +392,11 @@ flat-zero loss caught it immediately.)
 Scale-up (FSDP / μP-transfer / FP8 / FA-4 / DualPipe overlap) is documented in
 the guide but out of scope for this single-GPU package; the `mup` flag and the
 zero-init / QK-norm here are the prerequisites for the μP-transfer workflow.
+
+## License & Acknowledgements
+
+Dual-licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or [MIT License](LICENSE-MIT) at your option.
+
+- **[Andrej Karpathy (`karpathy/nanoGPT`)](https://github.com/karpathy/nanoGPT)** — Inspired the minimalist, hackable single-GPU GPT training layout.
+- **[Keller Jordan (`KellerJordan/modded-nanogpt`)](https://github.com/KellerJordan/modded-nanogpt)** — Inspired the Muon Newton-Schulz orthogonalized optimizer, U-Net skip connections, value embeddings, and speedrun architectural recipe.
+- **[OpenAI (`openai/parameter-golf`)](https://github.com/openai/parameter-golf)** — Inspired the parameter-budgeted pretraining and quantization evaluation discipline.
